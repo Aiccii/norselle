@@ -6,12 +6,12 @@ document.getElementById("about").onclick = function (event) {
 
 document.getElementById("home").onclick = function (event) {
     event.preventDefault();
-    window.location.href = "index.html";
+    window.location.href = "https://www.norselle.com";
 }
 
 document.getElementById("norselle").onclick = function (event) {
     event.preventDefault();
-    window.location.href = "index.html";
+    window.location.href = "https://www.norselle.com";
 }
 
 document.getElementById("contact").onclick = function (event) {
