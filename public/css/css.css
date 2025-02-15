@@ -25,14 +25,26 @@ body {
 
 
 #htmlImg, #cssImg, #jsImg {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
 }
 
-#springImg, #javaImg, #pgsqlImg {
-    width: 140px;
+#javaImg, #pgsqlImg {
+    width: 150px;
     height: 120px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
 }
+
+#springImg {
+    width: 170px;
+    height: 120px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
 
 #tools {
     justify-content: center;
@@ -44,7 +56,7 @@ body {
 }
 
 #toolsImages img {
-    padding: 50px;
+    padding: 30px;
 }
 
 #welcome, #created {
@@ -77,6 +89,14 @@ body {
 #usethisForm {
     text-align: center;
 }
+
+
+
+
+
+
+
+/* GENERATED */
 
 
 /* General container styling */
@@ -176,13 +196,6 @@ body {
     margin-top: 10px;
 }
 
-/* Individual tool image styling */
-#toolsImages img {
-    width: 80px;
-    height: 80px;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-}
 
 /* Hover effect for tool images */
 #toolsImages img:hover {
