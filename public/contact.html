@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/css.css" />
-  <script src="./js/js.js" defer></script>
-  <script src="./js/new.js" defer></script>
+    <script src="./js/js.js" defer></script>
+    <script src="./js/new.js" defer></script>
 
 
 </head>
@@ -22,7 +22,28 @@
 
 <h1>Contact</h1>
 
-<h2>feel free to email me at : </h2>
+<h2>feel free to email at : norselle.dev@gmail.com</h2>
+
+<h2 id="usethisForm">Or use this form</h2>
+
+<form action="mailto:norselle.dev@gmail.com" method="post" enctype="text/plain" id="emailForm">
+
+
+    <p>Your Name : </p>
+    <label>
+        <input type="text" name="name" id="name">
+    </label>
+    <br><p>Your E-mail : </p>
+    <label>
+        <input type="text" name="mail" id="mail">
+    </label>
+    <br><p>Requests : </p>
+    <label>
+        <input type="text" name="comment" id="comment">
+    </label><br><br>
+    <input type="submit" value="Send" id="buttonSubmit">
+</form>
+
 
 </body>
 </html>

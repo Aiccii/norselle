@@ -22,3 +22,60 @@ li a {
 body {
     margin: 0;
 }
+
+
+#htmlImg, #cssImg, #jsImg {
+    width: 120px;
+    height: 120px;
+}
+
+#springImg, #javaImg {
+    width: 140px;
+    height: 120px;
+}
+
+#tools {
+    justify-content: center;
+    text-align: center;
+}
+
+#toolsText {
+    padding-bottom: 10px;
+}
+
+#toolsImages img {
+    padding: 50px;
+}
+
+#welcome, #created {
+    text-align: center;
+    justify-content: center;
+}
+
+
+#emailForm {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#emailForm label input {
+    height: 20px;
+}
+
+#emailForm p {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+#buttonSubmit {
+    margin-top: 15px;
+    max-width: 50px;
+    margin-left: 38%;
+}
+
+#usethisForm {
+    text-align: center;
+}
+
+
