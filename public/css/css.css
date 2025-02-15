@@ -29,7 +29,7 @@ body {
     height: 120px;
 }
 
-#springImg, #javaImg {
+#springImg, #javaImg, #pgsqlImg {
     width: 140px;
     height: 120px;
 }
@@ -79,3 +79,133 @@ body {
 }
 
 
+/* General container styling */
+#services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+#services-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section titles styling */
+#showcase-title,
+#providing-title {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Section descriptions styling */
+#showcase-description,
+#providing-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Optional hover effect for section titles */
+#showcase-title:hover,
+#providing-title:hover {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Welcome message styling */
+#welcome {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+/* Creator message styling */
+#created {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Tools section styling */
+#tools {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tools title styling */
+#toolsText {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Tools images container styling */
+#toolsImages {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Individual tool image styling */
+#toolsImages img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for tool images */
+#toolsImages img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Database section styling */
+#databaseSection {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Database title styling */
+#databaseTitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* PostgreSQL image styling */
+#pgsqlImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
