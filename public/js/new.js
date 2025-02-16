@@ -4,10 +4,6 @@ document.getElementById("about").onclick = function (event) {
     window.location.href = "about.html";
 }
 
-document.getElementById("home").onclick = function (event) {
-    event.preventDefault();
-    window.location.href = "https://www.norselle.com";
-}
 
 document.getElementById("norselle").onclick = function (event) {
     event.preventDefault();

@@ -4,29 +4,28 @@
     padding: 8px;
     overflow: hidden;
     background-color: #3e0391;
-    display: flex;
-    justify-content: center;
 }
 
 #norselle {
     font-size: 26px;
-    padding: 5px;
+    padding: 7px 5px 5px 40px;
     font-family: URW Chancery L, cursive;
-}
-
-
-li {
     float: left;
-    padding: 10px;
-    display: inline-block;
 }
+
+
+#home, #contact, #projects, #about {
+    float: right;
+    padding: 15px 30px 10px 10px;
+}
+
 
 li a {
+    float: right;
     display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    text-align: center;
     font-size: 18px;
     font-family: Verdana, sans-serif;
 }
@@ -76,7 +75,7 @@ li a {
     padding-bottom: 10px;
 }
 
-#toolsImages img {
+#toolsImages :is(img) {
     padding: 30px;
 }
 
@@ -139,8 +138,26 @@ li a {
     left: 49.5%;
 }
 
-.who h1, h2, h3, h4, p {
+.whoAbout {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 33%;
+    left: 36%;
+}
+
+.whoAbout :is(h1, h2, h3, h4, p) {
     color: white;
+    margin-right: 35%;
+}
+
+
+.who :is(h1, h2, h3, h4, p) {
+    color: white;
+}
+
+.who :is(h1) {
+    color: white;
+    text-align: center;
 }
 
 
